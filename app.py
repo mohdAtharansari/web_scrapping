@@ -46,6 +46,7 @@ def index():
                     name = commentbox.div.div.find_all('p', {'class': '_2sc7ZR _2V5EHH'})[0].text
 
                 except:
+                    
                     logging.info("name")
 
                 try:
